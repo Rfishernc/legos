@@ -16,11 +16,17 @@ $border: 2px solid black;
 #dropDownContainer {
   display: flex;
   justify-content: center;
+  div {
+    margin: 0.5%;
+  }
 }
 
 #buttonContainer {
   display: flex;
   justify-content: center;
+  button {
+    margin: 0.5%;
+  }
 }
 
 #partsContainer {
