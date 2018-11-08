@@ -9,7 +9,8 @@
     "build": "NODE_ENV=production webpack",
     "lint": "eslint ./src --ext .js --fix",
     "dev": "NODE_ENV=development webpack-dev-server --content-base dist --hot",
-    "start": "npm run lint && npm run dev"
+    "start": "npm run lint && npm run dev",
+    "legos": "json-server db/parts.json --port 3003"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
