@@ -10,14 +10,17 @@ $border: 2px solid black;
   border-top: $border;
   border-left: $border;
   border-right: $border;
+  background-color: white;
 }
 
 #dropDownContainer {
   display: flex;
+  justify-content: center;
 }
 
 #buttonContainer {
   display: flex;
+  justify-content: center;
 }
 
 #partsContainer {

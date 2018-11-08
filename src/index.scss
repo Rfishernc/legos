@@ -1,12 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
 
+$border: 2px solid black;
+
 body {
   display: flex;
 }
 
 #savedDiv {
+  border: $border;
+  background-color: orange;
   div {
     display: flex;
     flex-flow: column;
+    align-items: center;
+    border: $border;
+    margin: auto;
   }
+}
+
+#legosContainer {
+  border: $border;
+  width: 180%;
+  background-color: teal;
 }
