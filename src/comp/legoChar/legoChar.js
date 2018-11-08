@@ -1,7 +1,7 @@
 import Axios from 'axios';
 import $ from 'jquery';
 import 'bootstrap';
-import '../../index.scss';
+import './legoChar.scss';
 
 const legoBuilder = (partType, partIndex) => {
   let tempString = '';

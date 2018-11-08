@@ -1,1 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  display: flex;
+}
+
+#savedDiv {
+  div {
+    display: flex;
+    flex-flow: column;
+  }
+}

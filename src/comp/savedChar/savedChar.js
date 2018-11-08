@@ -1,5 +1,6 @@
 import 'bootstrap';
 import $ from 'jquery';
+import './savedChar.scss';
 
 const savedLegos = [];
 
@@ -13,7 +14,6 @@ const savedLegosBuilder = () => {
                           <img src=${legoPerson.legs}>
                         </div>`;
   });
-  console.log(tempString);
   $('#savedDiv').html(tempString);
 };
 

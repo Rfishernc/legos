@@ -1,0 +1,32 @@
+@import '~bootstrap/scss/bootstrap';
+
+$border: 2px solid black;
+
+#nameContainer {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin: auto;
+  border-top: $border;
+  border-left: $border;
+  border-right: $border;
+}
+
+#dropDownContainer {
+  display: flex;
+}
+
+#buttonContainer {
+  display: flex;
+}
+
+#partsContainer {
+  border-left: $border;
+  border-right: $border;
+  border-bottom: $border;
+  width: 20%;
+  margin: auto;
+  img {
+    width: 100%;
+  }
+}
