@@ -1,10 +1,11 @@
 import 'bootstrap';
 import $ from 'jquery';
+import './savedChar.scss';
 
 const savedLegos = [];
 
 const savedLegosBuilder = () => {
-  let tempString = '';
+  let tempString = '<p id="savedTitle">Saved Lego People</p>';
   savedLegos.forEach((legoPerson) => {
     tempString += `<div class='savedLegosDiv'>
                           <p>${legoPerson.name}</p>
@@ -13,7 +14,6 @@ const savedLegosBuilder = () => {
                           <img src=${legoPerson.legs}>
                         </div>`;
   });
-  console.log(tempString);
   $('#savedDiv').html(tempString);
 };
 

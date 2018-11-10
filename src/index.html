@@ -7,17 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <button type="button" id='randomizer'>Randomize</button>
-  <div id='headsNameDiv' class='nameDiv'></div>
-  <div id='torsosNameDiv' class='nameDiv'></div>
-  <div id='legsNameDiv'  class='nameDiv'></div>
-  <div id='headsDrop'></div>
-  <div id='torsosDrop'></div>
-  <div id='legsDrop'></div>
-  <button type='button' id='saveButton'>Save Lego Person</button>
-  <div id='headsDiv' class='partDiv'></div>
-  <div id='torsosDiv' class='partDiv'></div>
-  <div id='legsDiv' class='partDiv'></div>
-  <div id='savedDiv'></div>
+  <div id='legosContainer'>
+    <p id='dropDownTitle'>Choose Lego Parts</p>
+    <div id='dropDownContainer'>
+      <div id='headsDrop'></div>
+      <div id='torsosDrop'></div>
+      <div id='legsDrop'></div>
+    </div>
+    <div id='buttonContainer'>
+      <button type='button' id='saveButton'>Save Lego Person</button>
+      <button type="button" id='randomizer'>Randomize</button>
+    </div>
+    <div id='nameContainer'>
+      <div id='headsNameDiv' class='nameDiv'></div>
+      <div id='torsosNameDiv' class='nameDiv'></div>
+      <div id='legsNameDiv'  class='nameDiv'></div>
+    </div>
+    <div id='partsContainer'>
+      <div id='headsDiv' class='partDiv'></div>
+      <div id='torsosDiv' class='partDiv'></div>
+      <div id='legsDiv' class='partDiv'></div>
+    </div>
+  </div>
+  <div id='savedDiv'><p id='savedTitle'>Saved Lego People</p></div>
 </body>
 </html>
